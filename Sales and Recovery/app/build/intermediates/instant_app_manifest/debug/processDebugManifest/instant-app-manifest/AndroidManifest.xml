@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.najam.bluetoothprinteremulator"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.najam.bluetoothprinteremulator.ui.ViewPaymentsActivity" />
+        <activity android:name="com.najam.bluetoothprinteremulator.ui.PrintInvoiceActivity" />
+        <activity android:name="com.najam.bluetoothprinteremulator.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="icontrolsystems.pk"
+                    android:pathPattern=".*"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.ZoneActivity"
+            android:label="Zone" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.SubZoneActivity"
+            android:label="Sub Zone" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.AddAccount"
+            android:label="Add Account" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.ReceivePaymentActivity"
+            android:label="Receive Payment" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.Catagory"
+            android:label="Catagory" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.Product"
+            android:label="Product" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.AccountsActivity"
+            android:label="Account" />
+        <activity android:name="com.najam.bluetoothprinteremulator.FilePicker" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.LedgerActivity"
+            android:label="Ledger" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.AddInvoice"
+            android:label="Add Invoice" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.ui.ConfigurationActivity"
+            android:label="Configurations" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.ui.SummaryActivity"
+            android:label="Summary" />
+        <activity
+            android:name="com.najam.bluetoothprinteremulator.InvoiceList"
+            android:label="Add Invoice" />
+        <activity android:name="com.najam.bluetoothprinteremulator.print.helper.DeviceListActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e27fa268baf66980b7cfeb8e4fbd0ac814acb3b7" />
+
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.najam.bluetoothprinteremulator.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.najam.bluetoothprinteremulator.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="90" />
+    </application>
+
+</manifest>

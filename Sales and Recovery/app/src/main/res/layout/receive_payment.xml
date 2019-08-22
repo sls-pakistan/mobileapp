@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/background_dark"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Customer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/rpname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/InvoiceBackground"
+        android:paddingLeft="14dp"
+        android:paddingTop="2dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="2dp"
+        android:text="Ahsan traders kuri road"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/rpaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/InvoiceBackground"
+        android:paddingLeft="14dp"
+        android:paddingTop="2dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="2dp"
+        android:text="Near Bohari Market, Band Khanna Road, Masjid Chowk"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/rpphn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/InvoiceBackground"
+        android:paddingLeft="14dp"
+        android:paddingTop="2dp"
+        android:paddingRight="14dp"
+        android:paddingBottom="2dp"
+        android:text="03006574657, 03334567865"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/InvoiceBackground"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Previous Balance:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textView20"
+            android:layout_alignStart="@+id/textView20"
+            android:layout_alignLeft="@+id/textView20"
+            android:text="Received Amount:"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/rpbalance"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/textView20"
+            android:layout_toEndOf="@+id/textView20"
+            android:layout_toRightOf="@+id/textView20"
+            android:gravity="right"
+            android:text="2000" />
+
+        <EditText
+            android:id="@+id/rpeditbal"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textView20"
+            android:layout_toEndOf="@+id/textView20"
+            android:layout_toRightOf="@+id/textView20"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:gravity="end"
+            android:inputType="numberDecimal"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/rpnewbal"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/textView18"
+            android:layout_alignBottom="@+id/textView21"
+            android:layout_toEndOf="@+id/textView21"
+            android:layout_toRightOf="@+id/textView21"
+            android:gravity="right" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/textView18"
+            android:layout_alignStart="@+id/textView18"
+            android:layout_alignLeft="@+id/textView18"
+            android:text="New Balance"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rpnewbal"
+            android:layout_alignEnd="@+id/rpnewbal"
+            android:layout_alignRight="@+id/rpnewbal"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rpsave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/ButtonBackground"
+                android:text="Save" />
+
+            <CheckBox
+                android:id="@+id/cbPrint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/print" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

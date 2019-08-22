@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/background_dark"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Add New Account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/InvoiceBackground"
+        android:gravity="center"
+        android:text="Account Code: ACC0016"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/InvoiceBackground"
+        android:padding="8dp">
+
+        <EditText
+            android:id="@+id/aaadd"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_below="@+id/aaname"
+            android:layout_alignStart="@+id/aaname"
+            android:layout_alignLeft="@+id/aaname"
+            android:layout_alignEnd="@+id/aaname"
+            android:layout_alignRight="@+id/aaname"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:maxLines="1"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/aaadd"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:text="Address:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/aaadd"
+            android:layout_alignStart="@+id/textView17"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_marginTop="36dp"
+            android:text="Phone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <EditText
+            android:id="@+id/aiqty"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignEnd="@+id/aaadd"
+            android:layout_alignRight="@+id/aaadd"
+            android:layout_alignBottom="@+id/textView19"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:inputType="number"
+            android:padding="4dp" />
+
+        <EditText
+            android:id="@+id/aaname"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/textView15"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/border"
+            android:ems="10"
+            android:padding="4dp"
+            android:singleLine="false" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:layout_alignStart="@+id/textView17"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="22dp"
+            android:text="Name:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView19"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/aicancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/ButtonBackground"
+                android:gravity="center"
+                android:text="Cancel" />
+
+            <Button
+                android:id="@+id/aasave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@color/ButtonBackground"
+                android:gravity="center"
+                android:text="Save" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

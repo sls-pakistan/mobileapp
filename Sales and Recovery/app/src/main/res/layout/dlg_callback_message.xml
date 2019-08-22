@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/ss_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/ss_icon"
+        android:gravity="left|center_vertical"
+        android:text="@string/app_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ss_icon"
+        android:layout_marginTop="18dp"
+        android:text="Body text" />
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:text="OK"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/body"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_toLeftOf="@id/ok"
+        android:text="CANCEL"
+        android:textColor="@color/colorPrimary" />
+
+    <View
+        android:id="@+id/ok_click_wrapper"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/body"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginBottom="-8dp" />
+
+    <View
+        android:id="@+id/cancel_click_wrapper"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/body"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginBottom="-8dp"
+        android:layout_toLeftOf="@id/ok_click_wrapper" />
+
+</RelativeLayout>

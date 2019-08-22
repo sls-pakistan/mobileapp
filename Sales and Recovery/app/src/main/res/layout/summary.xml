@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:text="Summary"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="32dp"
+            android:text="Total Sale amount" />
+
+        <TextView
+            android:id="@+id/txtTotalSales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtTotalSales"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="32dp"
+            android:text="Cash Sale Amount" />
+
+        <TextView
+            android:id="@+id/txtTotalCashSales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:layout_below="@+id/textView11"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtTotalCashSales"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="32dp"
+            android:text="Total Cash Recovery" />
+
+        <TextView
+            android:id="@+id/txtTotalRecovery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView12"
+            android:layout_alignStart="@+id/textView12"
+            android:layout_below="@+id/textView12"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txtTotalRecovery"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="32dp"
+            android:text="Total Cash in Hand" />
+
+        <TextView
+            android:id="@+id/txtTotalCashInHand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_below="@+id/textView13"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtTotalCashInHand"
+            android:layout_alignStart="@+id/txtTotalCashInHand"
+            android:layout_below="@+id/txtTotalCashInHand"
+            android:layout_marginTop="32dp"
+            android:text="@string/btnClose" />
+    </RelativeLayout>
+</LinearLayout>

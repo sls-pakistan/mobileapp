@@ -1,0 +1,374 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:2:1-84:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\84f70d10a0cb039389e75e32a733133b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\3b827288ce984fa3793ea18d6af2843b\AndroidManifest.xml:17:1-32:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4896c796eb1b96d6641705eaa6cb8de1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9287aa703ac650f79063c4f9f77c21db\AndroidManifest.xml:17:1-31:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\b23d3de5befdc20775143876a772c150\AndroidManifest.xml:2:1-14:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\e5031d90ecc6e7d58797c30d707cfec2\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\969699833c0ecde5970c0fedbfc05ba3\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\278445bd8d9edf59c6100a964eb1cc62\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dcf50171ea55c0fa409faaf0c659b2cd\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\85c6fd0b0a5c1a5b0115bea0bd047f30\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\316b923bb27fd293684ffce65b3eb4a0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\32beec11f87555522989785994d4f48c\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\8cfc985a4234b7477b1175d6063b3c99\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ad50abd5dee64c67ef1df602fe52057f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\75acfb39f9a444e49dbc3e5d7ee04483\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\3b3286ca30e4d411caae3216dbd44601\AndroidManifest.xml:17:1-31:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\a86b69e67c73cdb3afc7becf6d4dae53\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\b7af10dcf342c6a47e2be72bc4203130\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\df2921cebe10d2d3a8669af6be52c1a9\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\6bf144fdad1fbc2fb49f3279a5475ee5\AndroidManifest.xml:22:1-33:12
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:2:1-84:12
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:2:1-84:12
+	package
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:2:1-84:12
+		INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:2:1-84:12
+		INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:7:22-71
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\a86b69e67c73cdb3afc7becf6d4dae53\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\a86b69e67c73cdb3afc7becf6d4dae53\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\b7af10dcf342c6a47e2be72bc4203130\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\b7af10dcf342c6a47e2be72bc4203130\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\df2921cebe10d2d3a8669af6be52c1a9\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\df2921cebe10d2d3a8669af6be52c1a9\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\6bf144fdad1fbc2fb49f3279a5475ee5\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\6bf144fdad1fbc2fb49f3279a5475ee5\AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:11:22-64
+application
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:13:5-82:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\84f70d10a0cb039389e75e32a733133b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\84f70d10a0cb039389e75e32a733133b\AndroidManifest.xml:9:5-20
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\3b827288ce984fa3793ea18d6af2843b\AndroidManifest.xml:26:5-30:19
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\3b827288ce984fa3793ea18d6af2843b\AndroidManifest.xml:26:5-30:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4896c796eb1b96d6641705eaa6cb8de1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4896c796eb1b96d6641705eaa6cb8de1\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9287aa703ac650f79063c4f9f77c21db\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9287aa703ac650f79063c4f9f77c21db\AndroidManifest.xml:29:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\b23d3de5befdc20775143876a772c150\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\b23d3de5befdc20775143876a772c150\AndroidManifest.xml:7:5-12:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:transition:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\e5031d90ecc6e7d58797c30d707cfec2\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\e5031d90ecc6e7d58797c30d707cfec2\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\969699833c0ecde5970c0fedbfc05ba3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\969699833c0ecde5970c0fedbfc05ba3\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\278445bd8d9edf59c6100a964eb1cc62\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\278445bd8d9edf59c6100a964eb1cc62\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dcf50171ea55c0fa409faaf0c659b2cd\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dcf50171ea55c0fa409faaf0c659b2cd\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\32beec11f87555522989785994d4f48c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\32beec11f87555522989785994d4f48c\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\8cfc985a4234b7477b1175d6063b3c99\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\8cfc985a4234b7477b1175d6063b3c99\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ad50abd5dee64c67ef1df602fe52057f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ad50abd5dee64c67ef1df602fe52057f\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\75acfb39f9a444e49dbc3e5d7ee04483\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\75acfb39f9a444e49dbc3e5d7ee04483\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\3b3286ca30e4d411caae3216dbd44601\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\3b3286ca30e4d411caae3216dbd44601\AndroidManifest.xml:29:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\a86b69e67c73cdb3afc7becf6d4dae53\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\a86b69e67c73cdb3afc7becf6d4dae53\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\b7af10dcf342c6a47e2be72bc4203130\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\b7af10dcf342c6a47e2be72bc4203130\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\df2921cebe10d2d3a8669af6be52c1a9\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\df2921cebe10d2d3a8669af6be52c1a9\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\6bf144fdad1fbc2fb49f3279a5475ee5\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\6bf144fdad1fbc2fb49f3279a5475ee5\AndroidManifest.xml:31:5-20
+	android:supportsRtl
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:16:9-41
+	android:largeHeap
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:17:9-33
+	android:icon
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:19:9-40
+activity#com.najam.bluetoothprinteremulator.ui.ViewPaymentsActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:20:9-70
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:20:19-58
+activity#com.najam.bluetoothprinteremulator.ui.PrintInvoiceActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:21:9-61
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:21:19-58
+activity#com.najam.bluetoothprinteremulator.MainActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:22:9-39:20
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:22:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:26:27-74
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:icontrolsystems.pk+data:pathPattern:.*+data:scheme:http
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:28:13-38:29
+action#android.intent.action.VIEW
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:31:17-76
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:31:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:32:27-75
+data
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:34:17-37:45
+	android:host
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:35:21-54
+	android:scheme
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:37:21-42
+	android:pathPattern
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:36:21-45
+activity#com.najam.bluetoothprinteremulator.ZoneActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:40:9-42:36
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:42:13-33
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:41:13-41
+activity#com.najam.bluetoothprinteremulator.SubZoneActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:43:9-45:40
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:44:13-44
+activity#com.najam.bluetoothprinteremulator.AddAccount
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:46:9-48:43
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:48:13-40
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:47:13-39
+activity#com.najam.bluetoothprinteremulator.ReceivePaymentActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:49:9-51:47
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:50:13-51
+activity#com.najam.bluetoothprinteremulator.Catagory
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:52:9-54:40
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:53:13-37
+activity#com.najam.bluetoothprinteremulator.Product
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:55:9-57:39
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:57:13-36
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:56:13-36
+activity#com.najam.bluetoothprinteremulator.AccountsActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:58:9-60:39
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:60:13-36
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:59:13-45
+activity#com.najam.bluetoothprinteremulator.FilePicker
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:61:9-48
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:61:19-45
+activity#com.najam.bluetoothprinteremulator.LedgerActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:62:9-64:38
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:64:13-35
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:63:13-43
+activity#com.najam.bluetoothprinteremulator.AddInvoice
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:65:9-67:43
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:67:13-40
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:66:13-39
+activity#com.najam.bluetoothprinteremulator.ui.ConfigurationActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:68:9-70:46
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:70:13-43
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:69:13-53
+activity#com.najam.bluetoothprinteremulator.ui.SummaryActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:71:9-73:39
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:73:13-36
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:72:13-47
+activity#com.najam.bluetoothprinteremulator.InvoiceList
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:74:9-76:43
+	android:label
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:76:13-40
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:75:13-40
+activity#com.najam.bluetoothprinteremulator.print.helper.DeviceListActivity
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:77:9-69
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:77:19-66
+meta-data#io.fabric.ApiKey
+ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:79:9-81:72
+	android:value
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:81:13-69
+	android:name
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml:80:13-44
+uses-sdk
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\84f70d10a0cb039389e75e32a733133b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\84f70d10a0cb039389e75e32a733133b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\3b827288ce984fa3793ea18d6af2843b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.karumi:dexter:4.2.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\3b827288ce984fa3793ea18d6af2843b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4896c796eb1b96d6641705eaa6cb8de1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4896c796eb1b96d6641705eaa6cb8de1\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9287aa703ac650f79063c4f9f77c21db\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9287aa703ac650f79063c4f9f77c21db\AndroidManifest.xml:21:5-23:78
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\b23d3de5befdc20775143876a772c150\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\b23d3de5befdc20775143876a772c150\AndroidManifest.xml:5:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\e5031d90ecc6e7d58797c30d707cfec2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\e5031d90ecc6e7d58797c30d707cfec2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\969699833c0ecde5970c0fedbfc05ba3\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\969699833c0ecde5970c0fedbfc05ba3\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\278445bd8d9edf59c6100a964eb1cc62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\278445bd8d9edf59c6100a964eb1cc62\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dcf50171ea55c0fa409faaf0c659b2cd\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dcf50171ea55c0fa409faaf0c659b2cd\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\85c6fd0b0a5c1a5b0115bea0bd047f30\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\85c6fd0b0a5c1a5b0115bea0bd047f30\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\316b923bb27fd293684ffce65b3eb4a0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\316b923bb27fd293684ffce65b3eb4a0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\32beec11f87555522989785994d4f48c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\32beec11f87555522989785994d4f48c\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\8cfc985a4234b7477b1175d6063b3c99\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\8cfc985a4234b7477b1175d6063b3c99\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ad50abd5dee64c67ef1df602fe52057f\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ad50abd5dee64c67ef1df602fe52057f\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\75acfb39f9a444e49dbc3e5d7ee04483\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\75acfb39f9a444e49dbc3e5d7ee04483\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\3b3286ca30e4d411caae3216dbd44601\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\3b3286ca30e4d411caae3216dbd44601\AndroidManifest.xml:21:5-23:58
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\a86b69e67c73cdb3afc7becf6d4dae53\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\a86b69e67c73cdb3afc7becf6d4dae53\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\b7af10dcf342c6a47e2be72bc4203130\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\b7af10dcf342c6a47e2be72bc4203130\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\df2921cebe10d2d3a8669af6be52c1a9\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\df2921cebe10d2d3a8669af6be52c1a9\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\6bf144fdad1fbc2fb49f3279a5475ee5\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\6bf144fdad1fbc2fb49f3279a5475ee5\AndroidManifest.xml:27:5-43
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4896c796eb1b96d6641705eaa6cb8de1\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\HP\Dropbox\Android\Sales and Recovery\app\src\main\AndroidManifest.xml
+activity#com.karumi.dexter.DexterActivity
+ADDED from [com.karumi:dexter:4.2.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\3b827288ce984fa3793ea18d6af2843b\AndroidManifest.xml:27:9-29:72
+	android:theme
+		ADDED from [com.karumi:dexter:4.2.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\3b827288ce984fa3793ea18d6af2843b\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.karumi:dexter:4.2.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\dexter-4.2.0.aar\3b827288ce984fa3793ea18d6af2843b\AndroidManifest.xml:28:13-60
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4896c796eb1b96d6641705eaa6cb8de1\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9287aa703ac650f79063c4f9f77c21db\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\9287aa703ac650f79063c4f9f77c21db\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\e5031d90ecc6e7d58797c30d707cfec2\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\e5031d90ecc6e7d58797c30d707cfec2\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\969699833c0ecde5970c0fedbfc05ba3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\969699833c0ecde5970c0fedbfc05ba3\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\278445bd8d9edf59c6100a964eb1cc62\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\278445bd8d9edf59c6100a964eb1cc62\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dcf50171ea55c0fa409faaf0c659b2cd\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\dcf50171ea55c0fa409faaf0c659b2cd\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\316b923bb27fd293684ffce65b3eb4a0\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\316b923bb27fd293684ffce65b3eb4a0\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\32beec11f87555522989785994d4f48c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\32beec11f87555522989785994d4f48c\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\8cfc985a4234b7477b1175d6063b3c99\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\8cfc985a4234b7477b1175d6063b3c99\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ad50abd5dee64c67ef1df602fe52057f\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\ad50abd5dee64c67ef1df602fe52057f\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\75acfb39f9a444e49dbc3e5d7ee04483\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\75acfb39f9a444e49dbc3e5d7ee04483\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\3b3286ca30e4d411caae3216dbd44601\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\3b3286ca30e4d411caae3216dbd44601\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4896c796eb1b96d6641705eaa6cb8de1\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\4896c796eb1b96d6641705eaa6cb8de1\AndroidManifest.xml:26:9-47
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\b23d3de5befdc20775143876a772c150\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\b23d3de5befdc20775143876a772c150\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\b23d3de5befdc20775143876a772c150\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\b23d3de5befdc20775143876a772c150\AndroidManifest.xml:9:13-64
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\ee3a7157256ae47f9314f7f6da0e9af1\AndroidManifest.xml:13:13-75

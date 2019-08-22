@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.najam.bluetoothprinteremulator">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.ViewPaymentsActivity"></activity>
+        <activity android:name=".ui.PrintInvoiceActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="icontrolsystems.pk"
+                    android:pathPattern=".*"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ZoneActivity"
+            android:label="Zone" />
+        <activity
+            android:name=".SubZoneActivity"
+            android:label="Sub Zone" />
+        <activity
+            android:name=".AddAccount"
+            android:label="Add Account" />
+        <activity
+            android:name=".ReceivePaymentActivity"
+            android:label="Receive Payment" />
+        <activity
+            android:name=".Catagory"
+            android:label="Catagory" />
+        <activity
+            android:name=".Product"
+            android:label="Product" />
+        <activity
+            android:name=".AccountsActivity"
+            android:label="Account" />
+        <activity android:name=".FilePicker" />
+        <activity
+            android:name=".LedgerActivity"
+            android:label="Ledger" />
+        <activity
+            android:name=".AddInvoice"
+            android:label="Add Invoice" />
+        <activity
+            android:name=".ui.ConfigurationActivity"
+            android:label="Configurations" />
+        <activity
+            android:name=".ui.SummaryActivity"
+            android:label="Summary" />
+        <activity
+            android:name=".InvoiceList"
+            android:label="Add Invoice" />
+        <activity android:name=".print.helper.DeviceListActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="e27fa268baf66980b7cfeb8e4fbd0ac814acb3b7" />
+    </application>
+
+</manifest>
